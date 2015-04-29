@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fade Podcast Posters in</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript">
+
+    var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+    $("document").ready (function(){
+      if(!isMobile) {
+      var timeout = 1000;
+      $('img[title^=STR]').hide();
+          $('img[title^=STR]').each(function(i) {
+            timeout = timeout + 500;
+              if (this.complete) {
+                  $(this).fadeIn(timeout);
+              } else {
+                  $(this).load(function() {
+                      $(this).fadeIn(timeout);
+                  });
+              }
+          });
+          }
+  });
+
+</script>
+
+</head>
+<body>
+  <img class="size-full wp-image-609 alignleft" style="margin-right: 15px;" alt="STR-CAST" src="http://strngaming.com/wp-content/uploads/2013/08/STR-CAST.jpg" width="250" height="250" />
+  <p style="margin-bottom: 5px; font-size: 0.9em; line-height: 1.35em;"><strong>STR CAST (Strength Cast) is a Podcast of Video Game News, Reviews &amp; Comedy For Adults:</strong>
+  Tune-in to hear the Nerds of Strength in Gaming talk the harsh truths about Gaming, while being a minimum of three-sheets-to-the-wind. If you want to learn about the latest in gaming technology, news and reviews, join us. If you want to be overjoyed, angry, confused and offended, while laughing hysterically, this is the Podcast for you!</p>
+
+  <h3 style="margin-bottom: 2px;">SUBSCRIBE!</h3>
+  <div style="float: left; padding: 2px;"><a href="https://itunes.apple.com/us/podcast/str-cast/id698012276" target="_blank"><img class="alignnone  wp-image-1170" style="border: 0 !important;" alt="Subscribe on Itunes" src="http://strngaming.com/wp-content/uploads/2013/11/icon-itunes.png" width="121" height="40" data-id="1170" /></a></div>
+  <div style="float: left; padding: 2px;"><a href="http://app.stitcher.com/browse/feed/38908/episodes" target="_blank"><img class="alignnone  wp-image-1173" style="border: 0 !important;" alt="Stitcher subscribe" src="http://strngaming.com/wp-content/uploads/2013/08/stitcher-logo-300x173.jpg" width="113" height="66" data-id="1173" /></a></div>
+  <div style="float: left; padding: 2px;"><a href="http://player.fm/series/str-cast-22651" target="_blank"><img class="alignnone  wp-image-1175" style="border: 0 !important;" alt="subscribe on player.fm" src="http://strngaming.com/wp-content/uploads/2013/08/playerfm.jpg" width="142" height="39" data-id="1175" /></a></div>
+  <div style="float: left; padding: 2px;"><a href="http://strcast.libsyn.com/rss" target="_blank"><img class="alignnone  wp-image-1172" style="border: 0 !important;" alt="Libsyn Subscribe RSS" src="http://strngaming.com/wp-content/uploads/2013/08/libsyn_logo_white.png" width="125" height="38" data-id="1172" /></a></div>
+
+  <hr />
+
+  <a name="episodes"></a>
+  <h3>EPISODES - PAGE | <span style="font-size: 1.75em;"><strong>1</strong></span> | <a title="Page 2" href="http://strngaming.com/podcast-2/">2</a></h3>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep38-growing-gaming-i/"><img title="STR CAST EP38: Growing UP Gaming I" alt="STR CAST EP38: Growing UP Gaming I" src="http://strngaming.com/wp-content/uploads/2015/04/STR_PODCAST38-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep37-dungeons-and-dragons/"><img title="STR CAST EP37: Dungeons &amp; Dragons" alt="STR CAST EP37: Dungeons &amp; Dragons" src="http://strngaming.com/wp-content/uploads/2015/04/STR_PODCAST37-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep36-remastered/"><img title="STR CAST EP36: Remastered" alt="STR CAST EP36: Remastered" src="http://strngaming.com/wp-content/uploads/2015/03/STR_PODCAST36-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep35-female-role-models/"><img title="STR CAST EP35: Female Role Models" alt="STR CAST EP35: Female Role Models" src="http://strngaming.com/wp-content/uploads/2015/03/STR_PODCAST35-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep34-mmo-on-console/"><img title="STR CAST EP34: MMO on Console" alt="STR CAST EP34: MMO on Console" src="http://strngaming.com/wp-content/uploads/2015/03/STR_PODCAST34-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep33-minecraft-ed/"><img title="STR CAST EP33: Minecraft-ed" alt="STR CAST EP33: Minecraft-ed" src="http://strngaming.com/wp-content/uploads/2015/02/STR_PODCAST33-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep32-gamer-wives/"><img title="STR CAST EP32: Gamer Wives" alt="STR CAST EP32: Gamer Wives" src="http://strngaming.com/wp-content/uploads/2015/02/STR_PODCAST32-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep31-return-bubba/"><img title="STR CAST EP31: Return of Bubba" alt="STR CAST EP30: Caitlin’s Pokemon Corner" src="http://strngaming.com/wp-content/uploads/2015/01/STR_PODCAST31-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep30-caitlins-pokemon-corner/"><img title="STR CAST EP30: Caitlin’s Pokemon Corner" alt="STR CAST EP30: Caitlin’s Pokemon Corner" src="http://strngaming.com/wp-content/uploads/2015/01/STR-CAST30-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep29-vg-music-christodoulou/"><img title="STR CAST EP29: VG Music with Christodoulou" alt="STR CAST EP29: VG Music with Christodoulou" src="http://strngaming.com/wp-content/uploads/2013/08/STR_PODCAST29-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep28-pc-elite/"><img title="STR CAST EP28: The PC Elite" alt="STR CAST EP28: The PC Elite" src="http://strngaming.com/wp-content/uploads/2014/11/STR_PODCAST28-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep27-gamer-girl-jenay/"><img title="STR CAST EP27: Gamer Girl Jenay" alt="STR CAST EP27: Gamer Girl Jenay" src="http://strngaming.com/wp-content/uploads/2014/11/STR_PODCAST27-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep26-indie-horror-nights/"><img title="STR CAST EP26: Indie Horror Nights" alt="STR CAST EP26: Indie Horror Nights" src="http://strngaming.com/wp-content/uploads/2014/10/STR_PODCAST26-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep25-destiny-d/"><img title="STR CAST EP25: Destiny, The Other D" alt="STR CAST EP25: Destiny, The Other D" src="http://strngaming.com/wp-content/uploads/2014/10/STR_PODCAST25-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep24-game-shall-named/"><img title="STR CAST EP24: The Game That Shall Not Be Named" alt="STR CAST EP24: The Game That Shall Not Be Named" src="http://strngaming.com/wp-content/uploads/2014/10/STR_PODCAST24-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep-23-tootsie-roll-grummace/"><img title="STR CAST EP 23: Tootsie Roll &amp; The Grummace" alt="STR CAST EP 23: Tootsie Roll &amp; The Grummace" src="http://strngaming.com/wp-content/uploads/2014/10/STR_PODCAST231-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep-22-gamescom-2014/"><img title="STR CAST EP 22: GAMESCOM 2014" alt="STR CAST EP 22: GAMESCOM 2014" src="http://strngaming.com/wp-content/uploads/2014/10/STR_PODCAST22-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep21-cons/"><img title="STR CAST EP21: The Cons" alt="STR CAST EP21: The Cons" src="http://strngaming.com/wp-content/uploads/2014/10/STR_PODCAST21-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep20-back/"><img title="STR CAST EP20: We're Back!" alt="STR CAST EP20: We're Back!" src="http://strngaming.com/wp-content/uploads/2014/10/STR_PODCAST20-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep19-e3-extravaganza/"><img title="STR CAST EP19: E3 Extravaganza" alt="STR CAST EP19: E3 Extravaganza" src="http://strngaming.com/wp-content/uploads/2014/10/STR_PODCAST19-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+  <div style="float: left; padding: 5px; height: 371px;"><a href="http://strngaming.com/str-cast-ep18-reading-rainbow-redux/"><img title="STR CAST EP18: Reading Rainbow REDUX" alt="STR CAST EP18: Reading Rainbow REDUX" src="http://strngaming.com/wp-content/uploads/2014/10/STR_PODCAST18-sm.jpg" width="286" height="371" data-id="833" /></a></div>
+
+  <hr />
+  <p style="font-size: 2em; text-align: center;">PAGE | <span style="font-size: 1.75em;"><strong>1</strong></span> | <a title="Page 2" href="http://strngaming.com/podcast-2/">2</a></p>
+</body>
+</html>
